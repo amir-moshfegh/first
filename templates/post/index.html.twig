@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello PostController!{% endblock %}
+
+{% block body %}
+    {% form_theme myForm 'bootstrap_4_layout.html.twig' %}
+
+    {{ form(myForm) }}
+{#    {{ form_start(myForm) }}#}
+{#    {{ form_widget(myForm) }}#}
+{#    <button class="btn btn-success">Save !</button>#}
+{#    {{ form_end(myForm) }}#}
+{% endblock %}
